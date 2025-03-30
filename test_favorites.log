@@ -1,0 +1,968 @@
+2025-03-22 05:03:00,580 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 05:03:00,581 - INFO - Starting favorites test...
+2025-03-22 05:03:00,581 - INFO - Loaded favorites from file
+2025-03-22 05:03:00,582 - INFO - Mock Voice Browser Control initialized
+2025-03-22 05:03:00,582 - INFO - Initial videos favorite: https://vimeo.com
+2025-03-22 05:03:00,582 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 05:03:00,582 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:03:00,583 - INFO - Saved favorites to file
+2025-03-22 05:03:00,584 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:03:00,584 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:03:00,584 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:03:00,584 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 05:03:00,585 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 05:03:00,585 - INFO - Processing command: for music use spotify.com
+2025-03-22 05:03:00,586 - INFO - Saved favorites to file
+2025-03-22 05:03:00,587 - INFO - Set music favorite to https://spotify.com
+2025-03-22 05:03:00,587 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 05:03:00,588 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 05:03:00,588 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 05:03:00,589 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 05:03:00,589 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:03:00,590 - INFO - Command not recognized: when I say shopping use amazon.in
+2025-03-22 05:03:00,590 - INFO - After command, shopping favorite is: https://www.amazon.com
+2025-03-22 05:03:00,590 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 05:03:00,590 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 05:03:00,591 - INFO - Saved favorites to file
+2025-03-22 05:03:00,592 - INFO - Set news favorite to https://bbc.com
+2025-03-22 05:03:00,592 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 05:03:00,592 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 05:03:00,593 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 05:03:00,593 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 05:03:00,593 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 05:03:00,594 - INFO - Saved favorites to file
+2025-03-22 05:03:00,594 - INFO - Set movies favorite to https://disney.com
+2025-03-22 05:03:00,594 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 05:03:00,595 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 05:03:00,595 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 05:03:00,595 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 05:03:00,596 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 05:03:00,596 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:03:00,597 - INFO - Saved favorites to file
+2025-03-22 05:03:00,597 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:03:00,598 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:03:00,598 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:03:00,598 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 05:03:00,598 - INFO - Command: 'open category videos'
+2025-03-22 05:03:00,599 - INFO - Processing command: open category videos
+2025-03-22 05:03:00,599 - INFO - Opening category videos
+2025-03-22 05:03:00,599 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 05:03:00,599 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 05:03:00,600 - INFO - 
+Command: 'show favorites'
+2025-03-22 05:03:00,600 - INFO - Processing command: show favorites
+2025-03-22 05:03:00,600 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:03:00,600 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:03:00,601 - INFO - 
+All tests completed!
+2025-03-22 05:03:00,602 - INFO - Restored original favorites file
+2025-03-22 05:03:48,204 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 05:03:48,204 - INFO - Starting favorites test...
+2025-03-22 05:03:48,205 - INFO - Loaded favorites from file
+2025-03-22 05:03:48,206 - INFO - Mock Voice Browser Control initialized
+2025-03-22 05:03:48,206 - INFO - Initial videos favorite: https://vimeo.com
+2025-03-22 05:03:48,206 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 05:03:48,207 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:03:48,208 - INFO - Saved favorites to file
+2025-03-22 05:03:48,209 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:03:48,209 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:03:48,210 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:03:48,210 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 05:03:48,210 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 05:03:48,211 - INFO - Processing command: for music use spotify.com
+2025-03-22 05:03:48,212 - INFO - Saved favorites to file
+2025-03-22 05:03:48,213 - INFO - Set music favorite to https://spotify.com
+2025-03-22 05:03:48,213 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 05:03:48,214 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 05:03:48,214 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 05:03:48,215 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 05:03:48,215 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:03:48,216 - INFO - Command not recognized: when I say shopping use amazon.in
+2025-03-22 05:03:48,217 - INFO - After command, shopping favorite is: https://www.amazon.com
+2025-03-22 05:03:48,217 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 05:03:48,218 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 05:03:48,219 - INFO - Saved favorites to file
+2025-03-22 05:03:48,219 - INFO - Set news favorite to https://bbc.com
+2025-03-22 05:03:48,219 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 05:03:48,220 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 05:03:48,220 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 05:03:48,220 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 05:03:48,221 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 05:03:48,222 - INFO - Saved favorites to file
+2025-03-22 05:03:48,223 - INFO - Set movies favorite to https://disney.com
+2025-03-22 05:03:48,223 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 05:03:48,223 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 05:03:48,224 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 05:03:48,224 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 05:03:48,224 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 05:03:48,225 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:03:48,226 - INFO - Saved favorites to file
+2025-03-22 05:03:48,226 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:03:48,226 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:03:48,226 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:03:48,227 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 05:03:48,227 - INFO - Command: 'open category videos'
+2025-03-22 05:03:48,227 - INFO - Processing command: open category videos
+2025-03-22 05:03:48,228 - INFO - Opening category videos
+2025-03-22 05:03:48,228 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 05:03:48,229 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 05:03:48,230 - INFO - 
+Command: 'show favorites'
+2025-03-22 05:03:48,230 - INFO - Processing command: show favorites
+2025-03-22 05:03:48,230 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:03:48,231 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:03:48,231 - INFO - 
+All tests completed!
+2025-03-22 05:03:48,233 - INFO - Restored original favorites file
+2025-03-22 05:04:15,863 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 05:04:15,865 - INFO - Starting favorites test...
+2025-03-22 05:04:15,870 - INFO - Loaded favorites from file
+2025-03-22 05:04:15,870 - INFO - Mock Voice Browser Control initialized
+2025-03-22 05:04:15,871 - INFO - Initial videos favorite: https://vimeo.com
+2025-03-22 05:04:15,871 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 05:04:15,872 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:04:15,873 - INFO - Saved favorites to file
+2025-03-22 05:04:15,874 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:04:15,874 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:04:15,874 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:04:15,875 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 05:04:15,875 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 05:04:15,875 - INFO - Processing command: for music use spotify.com
+2025-03-22 05:04:15,877 - INFO - Saved favorites to file
+2025-03-22 05:04:15,878 - INFO - Set music favorite to https://spotify.com
+2025-03-22 05:04:15,878 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 05:04:15,878 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 05:04:15,879 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 05:04:15,879 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 05:04:15,880 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:04:15,881 - INFO - Command not recognized: when I say shopping use amazon.in
+2025-03-22 05:04:15,882 - INFO - After command, shopping favorite is: https://www.amazon.com
+2025-03-22 05:04:15,882 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 05:04:15,882 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 05:04:15,884 - INFO - Saved favorites to file
+2025-03-22 05:04:15,884 - INFO - Set news favorite to https://bbc.com
+2025-03-22 05:04:15,884 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 05:04:15,885 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 05:04:15,885 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 05:04:15,885 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 05:04:15,885 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 05:04:15,886 - INFO - Saved favorites to file
+2025-03-22 05:04:15,886 - INFO - Set movies favorite to https://disney.com
+2025-03-22 05:04:15,887 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 05:04:15,887 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 05:04:15,887 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 05:04:15,888 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 05:04:15,890 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 05:04:15,890 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:04:15,891 - INFO - Saved favorites to file
+2025-03-22 05:04:15,892 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:04:15,892 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:04:15,892 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:04:15,892 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 05:04:15,892 - INFO - Command: 'open category videos'
+2025-03-22 05:04:15,893 - INFO - Processing command: open category videos
+2025-03-22 05:04:15,893 - INFO - Opening category videos
+2025-03-22 05:04:15,893 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 05:04:15,893 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 05:04:15,893 - INFO - 
+Command: 'show favorites'
+2025-03-22 05:04:15,896 - INFO - Processing command: show favorites
+2025-03-22 05:04:15,898 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:04:15,898 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:04:15,898 - INFO - 
+All tests completed!
+2025-03-22 05:04:15,937 - INFO - Restored original favorites file
+2025-03-22 05:04:52,484 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 05:04:52,485 - INFO - Starting favorites test...
+2025-03-22 05:04:52,486 - INFO - Loaded favorites from file
+2025-03-22 05:04:52,487 - INFO - Mock Voice Browser Control initialized
+2025-03-22 05:04:52,487 - INFO - Initial videos favorite: https://vimeo.com
+2025-03-22 05:04:52,487 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 05:04:52,487 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:04:52,489 - INFO - Saved favorites to file
+2025-03-22 05:04:52,489 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:04:52,489 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:04:52,490 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:04:52,490 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 05:04:52,490 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 05:04:52,490 - INFO - Processing command: for music use spotify.com
+2025-03-22 05:04:52,492 - INFO - Saved favorites to file
+2025-03-22 05:04:52,492 - INFO - Set music favorite to https://spotify.com
+2025-03-22 05:04:52,493 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 05:04:52,493 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 05:04:52,493 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 05:04:52,493 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 05:04:52,493 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:04:52,494 - INFO - Command not recognized: when I say shopping use amazon.in
+2025-03-22 05:04:52,495 - INFO - After command, shopping favorite is: https://www.amazon.com
+2025-03-22 05:04:52,495 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 05:04:52,495 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 05:04:52,496 - INFO - Saved favorites to file
+2025-03-22 05:04:52,497 - INFO - Set news favorite to https://bbc.com
+2025-03-22 05:04:52,497 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 05:04:52,497 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 05:04:52,497 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 05:04:52,497 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 05:04:52,498 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 05:04:52,498 - INFO - Saved favorites to file
+2025-03-22 05:04:52,499 - INFO - Set movies favorite to https://disney.com
+2025-03-22 05:04:52,499 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 05:04:52,499 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 05:04:52,499 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 05:04:52,500 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 05:04:52,500 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 05:04:52,500 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:04:52,501 - INFO - Saved favorites to file
+2025-03-22 05:04:52,501 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:04:52,501 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:04:52,502 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:04:52,502 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 05:04:52,502 - INFO - Command: 'open category videos'
+2025-03-22 05:04:52,503 - INFO - Processing command: open category videos
+2025-03-22 05:04:52,503 - INFO - Opening category videos
+2025-03-22 05:04:52,503 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 05:04:52,503 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 05:04:52,504 - INFO - 
+Command: 'show favorites'
+2025-03-22 05:04:52,504 - INFO - Processing command: show favorites
+2025-03-22 05:04:52,504 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:04:52,505 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:04:52,506 - INFO - 
+All tests completed!
+2025-03-22 05:04:52,507 - INFO - Restored original favorites file
+2025-03-22 05:05:25,353 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 05:05:25,354 - INFO - Starting favorites test...
+2025-03-22 05:05:25,357 - INFO - Loaded favorites from file
+2025-03-22 05:05:25,357 - INFO - Mock Voice Browser Control initialized
+2025-03-22 05:05:25,357 - INFO - Initial videos favorite: https://vimeo.com
+2025-03-22 05:05:25,358 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 05:05:25,358 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:05:25,359 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:25,360 - INFO - Saved favorites to file
+2025-03-22 05:05:25,360 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:05:25,360 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:05:25,361 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:05:25,361 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 05:05:25,361 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 05:05:25,362 - INFO - Processing command: for music use spotify.com
+2025-03-22 05:05:25,363 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:25,364 - INFO - Saved favorites to file
+2025-03-22 05:05:25,364 - INFO - Set music favorite to https://spotify.com
+2025-03-22 05:05:25,365 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 05:05:25,366 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 05:05:25,366 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 05:05:25,366 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 05:05:25,367 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:05:25,367 - INFO - 'when I say' phrase found but pattern did not match
+2025-03-22 05:05:25,368 - INFO - Command not recognized: when I say shopping use amazon.in
+2025-03-22 05:05:25,369 - INFO - After command, shopping favorite is: https://www.amazon.com
+2025-03-22 05:05:25,369 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 05:05:25,369 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 05:05:25,370 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:25,371 - INFO - Saved favorites to file
+2025-03-22 05:05:25,371 - INFO - Set news favorite to https://bbc.com
+2025-03-22 05:05:25,371 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 05:05:25,372 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 05:05:25,372 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 05:05:25,372 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 05:05:25,372 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 05:05:25,373 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:25,374 - INFO - Saved favorites to file
+2025-03-22 05:05:25,374 - INFO - Set movies favorite to https://disney.com
+2025-03-22 05:05:25,374 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 05:05:25,375 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 05:05:25,375 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 05:05:25,375 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 05:05:25,376 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 05:05:25,376 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:05:25,376 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:25,379 - INFO - Saved favorites to file
+2025-03-22 05:05:25,379 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:05:25,379 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:05:25,380 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:05:25,380 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 05:05:25,381 - INFO - Command: 'open category videos'
+2025-03-22 05:05:25,381 - INFO - Processing command: open category videos
+2025-03-22 05:05:25,381 - INFO - Opening category videos
+2025-03-22 05:05:25,381 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 05:05:25,381 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 05:05:25,381 - INFO - 
+Command: 'show favorites'
+2025-03-22 05:05:25,382 - INFO - Processing command: show favorites
+2025-03-22 05:05:25,382 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:05:25,382 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:05:25,382 - INFO - 
+Testing 'when I say' command specifically...
+2025-03-22 05:05:25,383 - INFO - Command: 'when I say shopping use amazon.in'
+2025-03-22 05:05:25,384 - INFO - Pattern does not match
+2025-03-22 05:05:25,385 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:05:25,385 - INFO - 'when I say' phrase found but pattern did not match
+2025-03-22 05:05:25,385 - INFO - Command not recognized: when I say shopping use amazon.in
+2025-03-22 05:05:25,386 - INFO - Shopping favorite is now: https://www.amazon.com
+2025-03-22 05:05:25,386 - INFO - 
+All tests completed!
+2025-03-22 05:05:25,388 - INFO - Restored original favorites file
+2025-03-22 05:05:48,270 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 05:05:48,271 - INFO - Starting favorites test...
+2025-03-22 05:05:48,275 - INFO - Loaded favorites from file
+2025-03-22 05:05:48,275 - INFO - Mock Voice Browser Control initialized
+2025-03-22 05:05:48,276 - INFO - Initial videos favorite: https://vimeo.com
+2025-03-22 05:05:48,277 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 05:05:48,277 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:05:48,279 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:48,283 - INFO - Saved favorites to file
+2025-03-22 05:05:48,283 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:05:48,284 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:05:48,285 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:05:48,286 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 05:05:48,286 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 05:05:48,286 - INFO - Processing command: for music use spotify.com
+2025-03-22 05:05:48,288 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:48,290 - INFO - Saved favorites to file
+2025-03-22 05:05:48,291 - INFO - Set music favorite to https://spotify.com
+2025-03-22 05:05:48,292 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 05:05:48,292 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 05:05:48,294 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 05:05:48,294 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 05:05:48,294 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:05:48,295 - INFO - 'when I say' phrase found but pattern did not match
+2025-03-22 05:05:48,296 - INFO - Command not recognized: when I say shopping use amazon.in
+2025-03-22 05:05:48,296 - INFO - After command, shopping favorite is: https://www.amazon.com
+2025-03-22 05:05:48,297 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 05:05:48,298 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 05:05:48,298 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:48,299 - INFO - Saved favorites to file
+2025-03-22 05:05:48,299 - INFO - Set news favorite to https://bbc.com
+2025-03-22 05:05:48,300 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 05:05:48,300 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 05:05:48,300 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 05:05:48,301 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 05:05:48,301 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 05:05:48,301 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:48,302 - INFO - Saved favorites to file
+2025-03-22 05:05:48,303 - INFO - Set movies favorite to https://disney.com
+2025-03-22 05:05:48,303 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 05:05:48,303 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 05:05:48,304 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 05:05:48,304 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 05:05:48,304 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 05:05:48,304 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:05:48,305 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:05:48,305 - INFO - Saved favorites to file
+2025-03-22 05:05:48,306 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:05:48,306 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:05:48,306 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:05:48,306 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 05:05:48,306 - INFO - Command: 'open category videos'
+2025-03-22 05:05:48,306 - INFO - Processing command: open category videos
+2025-03-22 05:05:48,307 - INFO - Opening category videos
+2025-03-22 05:05:48,307 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 05:05:48,307 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 05:05:48,307 - INFO - 
+Command: 'show favorites'
+2025-03-22 05:05:48,307 - INFO - Processing command: show favorites
+2025-03-22 05:05:48,307 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:05:48,308 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://www.amazon.com. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:05:48,309 - INFO - 
+Testing 'when I say' command specifically...
+2025-03-22 05:05:48,309 - INFO - Command: 'when I say shopping use amazon.in'
+2025-03-22 05:05:48,310 - INFO - Pattern does not match
+2025-03-22 05:05:48,310 - INFO - Test pattern 1 does not match
+2025-03-22 05:05:48,311 - INFO - Test pattern 2 does not match
+2025-03-22 05:05:48,312 - INFO - Test pattern 3 does not match
+2025-03-22 05:05:48,313 - INFO - Test pattern 4 does not match
+2025-03-22 05:05:48,313 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:05:48,314 - INFO - 'when I say' phrase found but pattern did not match
+2025-03-22 05:05:48,314 - INFO - Command not recognized: when I say shopping use amazon.in
+2025-03-22 05:05:48,314 - INFO - Shopping favorite is now: https://www.amazon.com
+2025-03-22 05:05:48,315 - INFO - 
+All tests completed!
+2025-03-22 05:05:48,317 - INFO - Restored original favorites file
+2025-03-22 05:06:24,516 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 05:06:24,516 - INFO - Starting favorites test...
+2025-03-22 05:06:24,518 - INFO - Loaded favorites from file
+2025-03-22 05:06:24,519 - INFO - Mock Voice Browser Control initialized
+2025-03-22 05:06:24,519 - INFO - Initial videos favorite: https://vimeo.com
+2025-03-22 05:06:24,519 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 05:06:24,520 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:06:24,520 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:24,521 - INFO - Saved favorites to file
+2025-03-22 05:06:24,522 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:06:24,522 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:06:24,522 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:06:24,523 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 05:06:24,523 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 05:06:24,523 - INFO - Processing command: for music use spotify.com
+2025-03-22 05:06:24,524 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:24,525 - INFO - Saved favorites to file
+2025-03-22 05:06:24,526 - INFO - Set music favorite to https://spotify.com
+2025-03-22 05:06:24,526 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 05:06:24,526 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 05:06:24,527 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 05:06:24,527 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 05:06:24,527 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:06:24,527 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:24,529 - INFO - Saved favorites to file
+2025-03-22 05:06:24,529 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 05:06:24,529 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 05:06:24,530 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 05:06:24,530 - INFO - After command, shopping favorite is: https://amazon.in
+2025-03-22 05:06:24,530 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 05:06:24,530 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 05:06:24,531 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:24,532 - INFO - Saved favorites to file
+2025-03-22 05:06:24,532 - INFO - Set news favorite to https://bbc.com
+2025-03-22 05:06:24,532 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 05:06:24,533 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 05:06:24,533 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 05:06:24,533 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 05:06:24,533 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 05:06:24,534 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:24,535 - INFO - Saved favorites to file
+2025-03-22 05:06:24,535 - INFO - Set movies favorite to https://disney.com
+2025-03-22 05:06:24,535 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 05:06:24,535 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 05:06:24,536 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 05:06:24,536 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 05:06:24,536 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 05:06:24,536 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:06:24,537 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:24,537 - INFO - Saved favorites to file
+2025-03-22 05:06:24,537 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:06:24,539 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:06:24,539 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:06:24,539 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 05:06:24,539 - INFO - Command: 'open category videos'
+2025-03-22 05:06:24,539 - INFO - Processing command: open category videos
+2025-03-22 05:06:24,540 - INFO - Opening category videos
+2025-03-22 05:06:24,540 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 05:06:24,541 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 05:06:24,541 - INFO - 
+Command: 'show favorites'
+2025-03-22 05:06:24,542 - INFO - Processing command: show favorites
+2025-03-22 05:06:24,543 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:06:24,544 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:06:24,544 - INFO - 
+Testing 'when I say' command specifically...
+2025-03-22 05:06:24,545 - INFO - Command: 'when I say shopping use amazon.in'
+2025-03-22 05:06:24,545 - INFO - Pattern does not match
+2025-03-22 05:06:24,546 - INFO - Test pattern 1 does not match
+2025-03-22 05:06:24,546 - INFO - Test pattern 2 does not match
+2025-03-22 05:06:24,547 - INFO - Test pattern 3 does not match
+2025-03-22 05:06:24,547 - INFO - Test pattern 4 does not match
+2025-03-22 05:06:24,548 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:06:24,548 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:24,550 - INFO - Saved favorites to file
+2025-03-22 05:06:24,550 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 05:06:24,550 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 05:06:24,551 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 05:06:24,551 - INFO - Shopping favorite is now: https://amazon.in
+2025-03-22 05:06:24,551 - INFO - 
+All tests completed!
+2025-03-22 05:06:24,553 - INFO - Restored original favorites file
+2025-03-22 05:06:36,822 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 05:06:36,822 - INFO - Starting favorites test...
+2025-03-22 05:06:36,825 - INFO - Loaded favorites from file
+2025-03-22 05:06:36,826 - INFO - Mock Voice Browser Control initialized
+2025-03-22 05:06:36,826 - INFO - Initial videos favorite: https://vimeo.com
+2025-03-22 05:06:36,826 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 05:06:36,827 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:06:36,828 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:36,829 - INFO - Saved favorites to file
+2025-03-22 05:06:36,829 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:06:36,829 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:06:36,830 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:06:36,830 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 05:06:36,830 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 05:06:36,831 - INFO - Processing command: for music use spotify.com
+2025-03-22 05:06:36,832 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:36,833 - INFO - Saved favorites to file
+2025-03-22 05:06:36,834 - INFO - Set music favorite to https://spotify.com
+2025-03-22 05:06:36,834 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 05:06:36,834 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 05:06:36,834 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 05:06:36,835 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 05:06:36,835 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:06:36,835 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:36,836 - INFO - Saved favorites to file
+2025-03-22 05:06:36,836 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 05:06:36,837 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 05:06:36,837 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 05:06:36,837 - INFO - After command, shopping favorite is: https://amazon.in
+2025-03-22 05:06:36,837 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 05:06:36,838 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 05:06:36,838 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:36,838 - INFO - Saved favorites to file
+2025-03-22 05:06:36,839 - INFO - Set news favorite to https://bbc.com
+2025-03-22 05:06:36,839 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 05:06:36,840 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 05:06:36,840 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 05:06:36,840 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 05:06:36,841 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 05:06:36,841 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:36,842 - INFO - Saved favorites to file
+2025-03-22 05:06:36,842 - INFO - Set movies favorite to https://disney.com
+2025-03-22 05:06:36,842 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 05:06:36,843 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 05:06:36,843 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 05:06:36,843 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 05:06:36,844 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 05:06:36,844 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 05:06:36,844 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:36,845 - INFO - Saved favorites to file
+2025-03-22 05:06:36,845 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 05:06:36,846 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 05:06:36,846 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 05:06:36,846 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 05:06:36,846 - INFO - Command: 'open category videos'
+2025-03-22 05:06:36,846 - INFO - Processing command: open category videos
+2025-03-22 05:06:36,847 - INFO - Opening category videos
+2025-03-22 05:06:36,847 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 05:06:36,848 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 05:06:36,848 - INFO - 
+Command: 'show favorites'
+2025-03-22 05:06:36,848 - INFO - Processing command: show favorites
+2025-03-22 05:06:36,849 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:06:36,849 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 05:06:36,850 - INFO - 
+Testing 'when I say' command specifically...
+2025-03-22 05:06:36,850 - INFO - Command: 'when I say shopping use amazon.in'
+2025-03-22 05:06:36,850 - INFO - Pattern does not match
+2025-03-22 05:06:36,851 - INFO - Test pattern 1 does not match
+2025-03-22 05:06:36,851 - INFO - Test pattern 2 does not match
+2025-03-22 05:06:36,852 - INFO - Test pattern 3 does not match
+2025-03-22 05:06:36,852 - INFO - Test pattern 4 does not match
+2025-03-22 05:06:36,853 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 05:06:36,853 - INFO - Command identified as a 'set favorite' command
+2025-03-22 05:06:36,854 - INFO - Saved favorites to file
+2025-03-22 05:06:36,855 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 05:06:36,855 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 05:06:36,855 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 05:06:36,856 - INFO - Shopping favorite is now: https://amazon.in
+2025-03-22 05:06:36,856 - INFO - 
+All tests completed!
+2025-03-22 05:06:36,857 - INFO - Restored original favorites file
+2025-03-22 09:32:40,352 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 09:32:40,352 - INFO - Starting favorites test...
+2025-03-22 09:32:40,352 - INFO - Loaded favorites from file
+2025-03-22 09:32:40,353 - INFO - Mock Voice Browser Control initialized
+2025-03-22 09:32:40,353 - INFO - Initial videos favorite: https://youtube.com
+2025-03-22 09:32:40,353 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 09:32:40,353 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 09:32:40,354 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:32:40,354 - INFO - Saved favorites to file
+2025-03-22 09:32:40,355 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 09:32:40,355 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 09:32:40,355 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 09:32:40,355 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 09:32:40,355 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 09:32:40,355 - INFO - Processing command: for music use spotify.com
+2025-03-22 09:32:40,356 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:32:40,357 - INFO - Saved favorites to file
+2025-03-22 09:32:40,357 - INFO - Set music favorite to https://spotify.com
+2025-03-22 09:32:40,357 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 09:32:40,357 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 09:32:40,358 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 09:32:40,358 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 09:32:40,359 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 09:32:40,359 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:32:40,360 - INFO - Saved favorites to file
+2025-03-22 09:32:40,360 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 09:32:40,361 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 09:32:40,361 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 09:32:40,361 - INFO - After command, shopping favorite is: https://amazon.in
+2025-03-22 09:32:40,362 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 09:32:40,362 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 09:32:40,362 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:32:40,363 - INFO - Saved favorites to file
+2025-03-22 09:32:40,363 - INFO - Set news favorite to https://bbc.com
+2025-03-22 09:32:40,363 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 09:32:40,363 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 09:32:40,363 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 09:32:40,364 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 09:32:40,364 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 09:32:40,364 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:32:40,365 - INFO - Saved favorites to file
+2025-03-22 09:32:40,365 - INFO - Set movies favorite to https://disney.com
+2025-03-22 09:32:40,365 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 09:32:40,365 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 09:32:40,365 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 09:32:40,366 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 09:32:40,366 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 09:32:40,366 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 09:32:40,366 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:32:40,367 - INFO - Saved favorites to file
+2025-03-22 09:32:40,367 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 09:32:40,367 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 09:32:40,368 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 09:32:40,368 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 09:32:40,368 - INFO - Command: 'open category videos'
+2025-03-22 09:32:40,368 - INFO - Processing command: open category videos
+2025-03-22 09:32:40,369 - INFO - Opening category videos
+2025-03-22 09:32:40,369 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 09:32:40,369 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 09:32:40,370 - INFO - 
+Command: 'show favorites'
+2025-03-22 09:32:40,370 - INFO - Processing command: show favorites
+2025-03-22 09:32:40,371 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 09:32:40,371 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 09:32:40,371 - INFO - 
+Testing 'when I say' command specifically...
+2025-03-22 09:32:40,371 - INFO - Command: 'when I say shopping use amazon.in'
+2025-03-22 09:32:40,371 - INFO - Pattern does not match
+2025-03-22 09:32:40,372 - INFO - Test pattern 1 does not match
+2025-03-22 09:32:40,372 - INFO - Test pattern 2 does not match
+2025-03-22 09:32:40,372 - INFO - Test pattern 3 does not match
+2025-03-22 09:32:40,373 - INFO - Test pattern 4 does not match
+2025-03-22 09:32:40,373 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 09:32:40,373 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:32:40,374 - INFO - Saved favorites to file
+2025-03-22 09:32:40,374 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 09:32:40,375 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 09:32:40,375 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 09:32:40,375 - INFO - Shopping favorite is now: https://amazon.in
+2025-03-22 09:32:40,375 - INFO - 
+All tests completed!
+2025-03-22 09:32:40,377 - INFO - Restored original favorites file
+2025-03-22 09:33:23,627 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 09:33:23,628 - INFO - Starting favorites test...
+2025-03-22 09:33:23,629 - INFO - Loaded favorites from file
+2025-03-22 09:33:23,629 - INFO - Mock Voice Browser Control initialized
+2025-03-22 09:33:23,629 - INFO - Initial videos favorite: https://youtube.com
+2025-03-22 09:33:23,630 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 09:33:23,630 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 09:33:23,630 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:33:23,631 - INFO - Saved favorites to file
+2025-03-22 09:33:23,631 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 09:33:23,632 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 09:33:23,632 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 09:33:23,632 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 09:33:23,633 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 09:33:23,633 - INFO - Processing command: for music use spotify.com
+2025-03-22 09:33:23,634 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:33:23,635 - INFO - Saved favorites to file
+2025-03-22 09:33:23,635 - INFO - Set music favorite to https://spotify.com
+2025-03-22 09:33:23,635 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 09:33:23,635 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 09:33:23,636 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 09:33:23,636 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 09:33:23,636 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 09:33:23,637 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:33:23,637 - INFO - Saved favorites to file
+2025-03-22 09:33:23,637 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 09:33:23,638 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 09:33:23,638 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 09:33:23,638 - INFO - After command, shopping favorite is: https://amazon.in
+2025-03-22 09:33:23,638 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 09:33:23,638 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 09:33:23,638 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:33:23,639 - INFO - Saved favorites to file
+2025-03-22 09:33:23,639 - INFO - Set news favorite to https://bbc.com
+2025-03-22 09:33:23,639 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 09:33:23,639 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 09:33:23,639 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 09:33:23,640 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 09:33:23,640 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 09:33:23,640 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:33:23,640 - INFO - Saved favorites to file
+2025-03-22 09:33:23,640 - INFO - Set movies favorite to https://disney.com
+2025-03-22 09:33:23,641 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 09:33:23,641 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 09:33:23,641 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 09:33:23,641 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 09:33:23,641 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 09:33:23,641 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 09:33:23,641 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:33:23,642 - INFO - Saved favorites to file
+2025-03-22 09:33:23,642 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 09:33:23,642 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 09:33:23,642 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 09:33:23,643 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 09:33:23,643 - INFO - Command: 'open category videos'
+2025-03-22 09:33:23,643 - INFO - Processing command: open category videos
+2025-03-22 09:33:23,643 - INFO - Opening category videos
+2025-03-22 09:33:23,644 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 09:33:23,644 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 09:33:23,644 - INFO - 
+Command: 'show favorites'
+2025-03-22 09:33:23,644 - INFO - Processing command: show favorites
+2025-03-22 09:33:23,645 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 09:33:23,645 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 09:33:23,645 - INFO - 
+Testing 'when I say' command specifically...
+2025-03-22 09:33:23,645 - INFO - Command: 'when I say shopping use amazon.in'
+2025-03-22 09:33:23,645 - INFO - Pattern does not match
+2025-03-22 09:33:23,645 - INFO - Test pattern 1 does not match
+2025-03-22 09:33:23,646 - INFO - Test pattern 2 does not match
+2025-03-22 09:33:23,646 - INFO - Test pattern 3 does not match
+2025-03-22 09:33:23,646 - INFO - Test pattern 4 does not match
+2025-03-22 09:33:23,646 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 09:33:23,646 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:33:23,647 - INFO - Saved favorites to file
+2025-03-22 09:33:23,647 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 09:33:23,647 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 09:33:23,647 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 09:33:23,648 - INFO - Shopping favorite is now: https://amazon.in
+2025-03-22 09:33:23,648 - INFO - 
+Testing just 'when I say shopping' (without 'use')...
+2025-03-22 09:33:23,648 - INFO - Command: 'when I say shopping'
+2025-03-22 09:33:23,648 - INFO - Processing command: when I say shopping
+2025-03-22 09:33:23,649 - INFO - 'when I say' phrase found but pattern did not match
+2025-03-22 09:33:23,649 - INFO - Opening favorite shopping from 'when I say' command: https://amazon.in
+2025-03-22 09:33:23,649 - INFO - MOCK SPEAK: Opening shopping
+2025-03-22 09:33:23,649 - INFO - MOCK OPEN: Would open website: https://amazon.in
+2025-03-22 09:33:23,649 - INFO - 
+All tests completed!
+2025-03-22 09:33:23,650 - INFO - Restored original favorites file
+2025-03-22 09:37:31,159 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 09:37:31,160 - INFO - Starting favorites test...
+2025-03-22 09:37:31,160 - INFO - Loaded favorites from file
+2025-03-22 09:37:31,160 - INFO - Mock Voice Browser Control initialized
+2025-03-22 09:37:31,160 - INFO - Initial videos favorite: https://youtube.com
+2025-03-22 09:37:31,161 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 09:37:31,161 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 09:37:31,161 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:37:31,162 - INFO - Saved favorites to file
+2025-03-22 09:37:31,162 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 09:37:31,162 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 09:37:31,162 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 09:37:31,162 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 09:37:31,162 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 09:37:31,163 - INFO - Processing command: for music use spotify.com
+2025-03-22 09:37:31,163 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:37:31,165 - INFO - Saved favorites to file
+2025-03-22 09:37:31,165 - INFO - Set music favorite to https://spotify.com
+2025-03-22 09:37:31,165 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 09:37:31,165 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 09:37:31,166 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 09:37:31,166 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 09:37:31,166 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 09:37:31,167 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:37:31,168 - INFO - Saved favorites to file
+2025-03-22 09:37:31,169 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 09:37:31,170 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 09:37:31,170 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 09:37:31,171 - INFO - After command, shopping favorite is: https://amazon.in
+2025-03-22 09:37:31,172 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 09:37:31,172 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 09:37:31,172 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:37:31,173 - INFO - Saved favorites to file
+2025-03-22 09:37:31,174 - INFO - Set news favorite to https://bbc.com
+2025-03-22 09:37:31,174 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 09:37:31,174 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 09:37:31,175 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 09:37:31,175 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 09:37:31,175 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 09:37:31,176 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:37:31,177 - INFO - Saved favorites to file
+2025-03-22 09:37:31,177 - INFO - Set movies favorite to https://disney.com
+2025-03-22 09:37:31,177 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 09:37:31,178 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 09:37:31,178 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 09:37:31,178 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 09:37:31,178 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 09:37:31,179 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 09:37:31,179 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:37:31,179 - INFO - Saved favorites to file
+2025-03-22 09:37:31,180 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 09:37:31,180 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 09:37:31,180 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 09:37:31,180 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 09:37:31,180 - INFO - Command: 'open category videos'
+2025-03-22 09:37:31,181 - INFO - Processing command: open category videos
+2025-03-22 09:37:31,182 - INFO - Opening category videos
+2025-03-22 09:37:31,182 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 09:37:31,182 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 09:37:31,182 - INFO - 
+Command: 'show favorites'
+2025-03-22 09:37:31,182 - INFO - Processing command: show favorites
+2025-03-22 09:37:31,183 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 09:37:31,183 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 09:37:31,183 - INFO - 
+Testing 'when I say' command specifically...
+2025-03-22 09:37:31,183 - INFO - Command: 'when I say shopping use amazon.in'
+2025-03-22 09:37:31,184 - INFO - Pattern does not match
+2025-03-22 09:37:31,184 - INFO - Test pattern 1 does not match
+2025-03-22 09:37:31,184 - INFO - Test pattern 2 does not match
+2025-03-22 09:37:31,184 - INFO - Test pattern 3 does not match
+2025-03-22 09:37:31,185 - INFO - Test pattern 4 does not match
+2025-03-22 09:37:31,185 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 09:37:31,185 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:37:31,186 - INFO - Saved favorites to file
+2025-03-22 09:37:31,186 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 09:37:31,186 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 09:37:31,186 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 09:37:31,186 - INFO - Shopping favorite is now: https://amazon.in
+2025-03-22 09:37:31,186 - INFO - 
+Testing just 'when I say shopping' (without 'use')...
+2025-03-22 09:37:31,186 - INFO - Command: 'when I say shopping'
+2025-03-22 09:37:31,187 - INFO - Processing command: when I say shopping
+2025-03-22 09:37:31,187 - INFO - 'when I say' phrase found but pattern did not match
+2025-03-22 09:37:31,187 - INFO - Opening favorite shopping from 'when I say' command: https://amazon.in
+2025-03-22 09:37:31,187 - INFO - MOCK SPEAK: Opening shopping
+2025-03-22 09:37:31,187 - INFO - MOCK OPEN: Would open website: https://amazon.in
+2025-03-22 09:37:31,187 - INFO - 
+All tests completed!
+2025-03-22 09:37:31,189 - INFO - Restored original favorites file
+2025-03-22 09:38:02,129 - INFO - Created backup of favorites file: browser_favorites.json.bak
+2025-03-22 09:38:02,129 - INFO - Starting favorites test...
+2025-03-22 09:38:02,132 - INFO - Loaded favorites from file
+2025-03-22 09:38:02,132 - INFO - Mock Voice Browser Control initialized
+2025-03-22 09:38:02,133 - INFO - Initial videos favorite: https://youtube.com
+2025-03-22 09:38:02,133 - INFO - 
+Testing command: 'set favorite videos to vimeo.com'
+2025-03-22 09:38:02,133 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 09:38:02,134 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:38:02,135 - INFO - Saved favorites to file
+2025-03-22 09:38:02,135 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 09:38:02,135 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 09:38:02,135 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 09:38:02,136 - INFO - After command, videos favorite is: https://vimeo.com
+2025-03-22 09:38:02,136 - INFO - 
+Testing command: 'for music use spotify.com'
+2025-03-22 09:38:02,137 - INFO - Processing command: for music use spotify.com
+2025-03-22 09:38:02,137 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:38:02,138 - INFO - Saved favorites to file
+2025-03-22 09:38:02,138 - INFO - Set music favorite to https://spotify.com
+2025-03-22 09:38:02,139 - INFO - MOCK SPEAK: Set music favorite to https://spotify.com
+2025-03-22 09:38:02,139 - INFO - Set favorite result: Set music favorite to https://spotify.com
+2025-03-22 09:38:02,139 - INFO - After command, music favorite is: https://spotify.com
+2025-03-22 09:38:02,139 - INFO - 
+Testing command: 'when I say shopping use amazon.in'
+2025-03-22 09:38:02,139 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 09:38:02,140 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:38:02,140 - INFO - Saved favorites to file
+2025-03-22 09:38:02,140 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 09:38:02,141 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 09:38:02,141 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 09:38:02,142 - INFO - After command, shopping favorite is: https://amazon.in
+2025-03-22 09:38:02,142 - INFO - 
+Testing command: 'set news favorite to bbc.com'
+2025-03-22 09:38:02,142 - INFO - Processing command: set news favorite to bbc.com
+2025-03-22 09:38:02,142 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:38:02,143 - INFO - Saved favorites to file
+2025-03-22 09:38:02,143 - INFO - Set news favorite to https://bbc.com
+2025-03-22 09:38:02,144 - INFO - MOCK SPEAK: Set news favorite to https://bbc.com
+2025-03-22 09:38:02,144 - INFO - Set favorite result: Set news favorite to https://bbc.com
+2025-03-22 09:38:02,144 - INFO - After command, news favorite is: https://bbc.com
+2025-03-22 09:38:02,144 - INFO - 
+Testing command: 'make movies favorite website to disney.com'
+2025-03-22 09:38:02,144 - INFO - Processing command: make movies favorite website to disney.com
+2025-03-22 09:38:02,145 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:38:02,145 - INFO - Saved favorites to file
+2025-03-22 09:38:02,146 - INFO - Set movies favorite to https://disney.com
+2025-03-22 09:38:02,146 - INFO - MOCK SPEAK: Set movies favorite to https://disney.com
+2025-03-22 09:38:02,146 - INFO - Set favorite result: Set movies favorite to https://disney.com
+2025-03-22 09:38:02,146 - INFO - After command, movies favorite is: https://disney.com
+2025-03-22 09:38:02,146 - INFO - 
+Testing potential conflict resolution...
+2025-03-22 09:38:02,147 - INFO - Command: 'set favorite videos to vimeo.com'
+2025-03-22 09:38:02,147 - INFO - Processing command: set favorite videos to vimeo.com
+2025-03-22 09:38:02,147 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:38:02,148 - INFO - Saved favorites to file
+2025-03-22 09:38:02,148 - INFO - Set videos favorite to https://vimeo.com
+2025-03-22 09:38:02,148 - INFO - MOCK SPEAK: Set videos favorite to https://vimeo.com
+2025-03-22 09:38:02,148 - INFO - Set favorite result: Set videos favorite to https://vimeo.com
+2025-03-22 09:38:02,148 - INFO - Videos favorite is now: https://vimeo.com
+2025-03-22 09:38:02,149 - INFO - Command: 'open category videos'
+2025-03-22 09:38:02,149 - INFO - Processing command: open category videos
+2025-03-22 09:38:02,149 - INFO - Opening category videos
+2025-03-22 09:38:02,149 - INFO - MOCK SPEAK: Opening videos
+2025-03-22 09:38:02,149 - INFO - MOCK OPEN: Would open website: https://vimeo.com
+2025-03-22 09:38:02,150 - INFO - 
+Command: 'show favorites'
+2025-03-22 09:38:02,150 - INFO - Processing command: show favorites
+2025-03-22 09:38:02,150 - INFO - Listing favorites: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 09:38:02,150 - INFO - MOCK SPEAK: Your favorites are: videos is set to https://vimeo.com. shopping is set to https://amazon.in. social is set to https://www.facebook.com. search is set to https://www.google.com. news is set to https://bbc.com. mail is set to https://www.gmail.com. movies is set to https://disney.com. music is set to https://spotify.com. maps is set to https://www.google.com/maps
+2025-03-22 09:38:02,151 - INFO - 
+Testing 'when I say' command specifically...
+2025-03-22 09:38:02,151 - INFO - Command: 'when I say shopping use amazon.in'
+2025-03-22 09:38:02,151 - INFO - Pattern does not match
+2025-03-22 09:38:02,151 - INFO - Test pattern 1 does not match
+2025-03-22 09:38:02,151 - INFO - Test pattern 2 does not match
+2025-03-22 09:38:02,152 - INFO - Test pattern 3 does not match
+2025-03-22 09:38:02,152 - INFO - Test pattern 4 does not match
+2025-03-22 09:38:02,152 - INFO - Processing command: when I say shopping use amazon.in
+2025-03-22 09:38:02,152 - INFO - Command identified as a 'set favorite' command
+2025-03-22 09:38:02,153 - INFO - Saved favorites to file
+2025-03-22 09:38:02,153 - INFO - Set shopping favorite to https://amazon.in
+2025-03-22 09:38:02,153 - INFO - MOCK SPEAK: Set shopping favorite to https://amazon.in
+2025-03-22 09:38:02,154 - INFO - Set favorite result: Set shopping favorite to https://amazon.in
+2025-03-22 09:38:02,154 - INFO - Shopping favorite is now: https://amazon.in
+2025-03-22 09:38:02,154 - INFO - 
+Testing just 'when I say shopping' (without 'use')...
+2025-03-22 09:38:02,155 - INFO - Command: 'when I say shopping'
+2025-03-22 09:38:02,155 - INFO - Processing command: when I say shopping
+2025-03-22 09:38:02,155 - INFO - 'when I say' phrase found but pattern did not match
+2025-03-22 09:38:02,155 - INFO - Opening favorite shopping from 'when I say' command: https://amazon.in
+2025-03-22 09:38:02,156 - INFO - MOCK SPEAK: Opening shopping
+2025-03-22 09:38:02,156 - INFO - MOCK OPEN: Would open website: https://amazon.in
+2025-03-22 09:38:02,156 - INFO - 
+All tests completed!
+2025-03-22 09:38:02,157 - INFO - Restored original favorites file

@@ -1,0 +1,11 @@
+{
+    "videos": "https://youtube.com",
+    "shopping": "https://flipkart.com",
+    "social": "https://www.facebook.com",
+    "search": "https://www.google.com",
+    "news": "https://www.cnn.com",
+    "mail": "https://www.gmail.com",
+    "movies": "https://www.netflix.com",
+    "music": "https://spotify.com",
+    "maps": "https://www.google.com/maps"
+}
