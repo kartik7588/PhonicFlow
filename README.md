@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Features
+##  Features
 
 ✅ *BIOS-Level Voice Control* – Allows users to interact with their computers before the OS loads.  
 ✅ *Hands-Free Navigation* – No need for manual typing; control everything using voice commands.  
@@ -17,7 +17,7 @@
 
 ---
 
-## 📂 Installation & Usage
+##  Installation & Usage
 
  *Coming Soon...* Stay tuned for setup instructions and installation steps!
 
@@ -34,7 +34,7 @@ We welcome contributions! If you’d like to help improve PhonicFlow, feel free 
 ---
 
 ##  Contact & Support
-For any questions, support, or feedback, feel free to reach out via *[GitHub Issues](https://github.com/your-username/phonicflow/issues)* or email us at *support@phonicflow.com*.
+For any questions, support, or feedback, feel free to reach out via (https://github.com/kartik7588)* or email us at kartikjan.7588@gmail.com
 
 ---
 
